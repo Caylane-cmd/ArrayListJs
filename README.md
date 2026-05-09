@@ -5,7 +5,7 @@ Para esse tutorial irei usar uma problematica parar explicar como fazer a manipu
 
 Ex: Uma loja que tem vários produtos precisa filtrar os produtos, listar apenas os nomes e calcular o valor total dos produltos. 
 
-ok, agora que já sabemos do problema vamos iniciar, iremos começar fazendo a variavel "produto" que irá listar o nome e o preço dos produtos.
+ok, agora que já sabemos do problema vamos iniciar, iremos começar fazendo uma lista (produto) que irá receber objetos como: nome e preço.
 
 ```js
 const produtos = [
