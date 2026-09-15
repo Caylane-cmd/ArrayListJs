@@ -27,6 +27,8 @@ Resultado
   { nome: "Notebook", preco: 3500 }
 ]
 ```
+
+
 O filter() como o nome já sujere ele serve para filtrar elementod de um array. Nesse trecho pegamos o array produtos, e chamamos o metodo filter()ele vai percorrer o array verificando cada número e será retornado um novo array com os elementos que foi estipulado na condição, preços maiores que 100 .
 
 ---
@@ -42,8 +44,6 @@ Resultado
 ```
 O metodo map() ele transforma os elementos da maneira que queremos.Nesse trexo de código ele vai pegar os elementos (apenas os nomes) do array original e criar um novo array só com nomes dos produtos.
 
----
-
 ## reduce
 
 ```js
@@ -54,4 +54,20 @@ Resultado
 4570
 ```
 O reduce() ele é útio quando queremos que todos os valores da lista pra um só. Nesse trecho de código ele vai pegar todos os preço e somar um a um nos dando apenas o valor total.
+
+---
+## Encadeamento com Map, Filter e Reducer
+
+```js
+const totalDesconto = Produtos.filter(p = preco > 100).map(p=> acc + preco, 0).reduce((acc+ preco,0);
+console.log(totaldesconto);
+
+Resultado
+4068
+```
+
+
+
+
+
 
