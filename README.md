@@ -59,12 +59,15 @@ O reduce() ele é útio quando queremos que todos os valores da lista pra um só
 ## Encadeamento com Map, Filter e Reducer
 
 ```js
-const totalDesconto = Produtos.filter(p = preco > 100).map(p=> acc + preco, 0).reduce((acc+ preco,0);
+const totalDesconto = Produtos.filter(p => p.preco > 100).map(p=> p.preco*0.9).reduce((acc+ preco)=> acc + preco,0);
 console.log(totaldesconto);
 
 Resultado
 4068
 ```
+Os métodos estão sendo ultilizados de forma encadeada. O Resultado que é esperado é passado pra o outro método diretamente.
+
+
 
 
 
